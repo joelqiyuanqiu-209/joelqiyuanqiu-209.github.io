@@ -163,11 +163,9 @@ h2 { max-width: 900px; margin: 0; color: var(--ink); font-family: Georgia, "Time
 
 .experience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-left: 92px; }
 .experience-card { min-height: 520px; display: flex; flex-direction: column; padding: 28px; background: white; border: 1px solid var(--line); border-top: 4px solid var(--cornell); box-shadow: 0 15px 40px rgba(67, 36, 30, .06); }
-.company-logo-wrap { height: 72px; display: flex; align-items: center; margin-bottom: 32px; }
-.company-logo-wrap img { width: auto; max-width: 190px; max-height: 62px; mix-blend-mode: multiply; }
-.company-logo-wrap.word-logo { flex-direction: column; align-items: flex-start; justify-content: center; gap: 1px; color: var(--cornell); line-height: 1; }
-.word-logo strong { font-family: Georgia, "Songti SC", serif; font-size: 29px; letter-spacing: .15em; }
-.word-logo span { font-size: 8px; font-weight: 850; letter-spacing: .24em; }
+.company-logo-wrap { height: 78px; display: flex; align-items: center; margin-bottom: 32px; }
+.company-logo-wrap img { width: auto; max-width: 225px; max-height: 68px; object-fit: contain; object-position: left center; mix-blend-mode: multiply; }
+.company-logo-wrap .pan-china-company-logo { width: 170px; max-height: 78px; }
 .timeline-date { margin: 0 0 10px; color: var(--cornell); font-size: 11px; font-weight: 820; letter-spacing: .1em; text-transform: uppercase; }
 .experience-card h3 { margin: 0; color: var(--ink); font-family: Georgia, serif; font-size: 27px; line-height: 1.15; }
 .experience-card .role { margin: 5px 0 15px; color: var(--muted); font-size: 13px; font-weight: 680; }
@@ -197,9 +195,8 @@ h2 { max-width: 900px; margin: 0; color: var(--ink); font-family: Georgia, "Time
 .education-content { min-height: 740px; display: flex; flex-direction: column; padding: 34px; }
 .school-logo { width: min(360px, 85%); height: 72px; margin-bottom: 38px; object-fit: contain; object-position: left center; padding: 9px 12px; background: rgba(255,255,255,.94); }
 .cornell-school-logo { height: 78px; }
-.wku-lockup { min-height: 78px; display: flex; align-items: center; gap: 13px; margin-bottom: 38px; }
-.school-seal { width: 75px; height: 75px; object-fit: cover; border-radius: 50%; filter: grayscale(1) brightness(3); opacity: .92; }
-.wku-lockup span { color: white; font-family: Georgia, serif; font-size: 16px; font-weight: 750; line-height: 1.25; letter-spacing: .08em; }
+.wku-lockup { min-height: 96px; display: flex; align-items: center; margin-bottom: 20px; }
+.school-seal { width: 96px; height: 96px; padding: 5px; object-fit: contain; border-radius: 50%; background: white; opacity: 1; }
 .education-card .date { margin: 0 0 10px; color: #f6b4aa; font-size: 11px; font-weight: 820; letter-spacing: .12em; }
 .education-card h3 { margin: 0 0 6px; font-family: Georgia, serif; font-size: 34px; font-weight: 500; line-height: 1.12; }
 .degree { margin: 0; color: #e3d5d2; font-size: 14px; }
